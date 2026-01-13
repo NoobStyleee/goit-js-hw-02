@@ -5,7 +5,7 @@ function makeTransaction(quantity, pricePerDroid, customerCredits) {
     }
 
     else {
-        return ('You ordered ${quantity} droids worth ${sum} credits!');
+        return (`You ordered ${quantity} droids worth ${sum} credits!`);
     }
 }
 
